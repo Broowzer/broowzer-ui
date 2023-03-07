@@ -6,7 +6,7 @@ import * as React from 'react'
 import { storiesOf } from '@storybook/react'
 import styled from '../../src/theme'
 import paletteColors from '../../src/theme/colors'
-import themeBraveDefault from '../../src/theme/brave-default'
+import themeBroowzerDefault from '../../src/theme/broowzer-default'
 
 const Palette = styled.div`
   display: grid;
@@ -62,10 +62,10 @@ for (const name in paletteColors) {
   allPalletteItems.push({ name, color: paletteColors[name] })
 }
 
-const allBraveDefaultItems: any = []
-for (const name in themeBraveDefault.color) {
+const allBroowzerDefaultItems: any = []
+for (const name in themeBroowzerDefault.color) {
   // @ts-ignore
-  allBraveDefaultItems.push({ name, color: themeBraveDefault.color[name] })
+  allBroowzerDefaultItems.push({ name, color: themeBroowzerDefault.color[name] })
 }
 
 storiesOf('Theme', module)
@@ -80,7 +80,7 @@ storiesOf('Theme', module)
   .add('Theme Variables', () => {
     return (
       <Palette individual={true}>
-        {allBraveDefaultItems.map(({ color, name }: any) =>
+        {allBroowzerDefaultItems.map(({ color, name }: any) =>
           <PaletteItem individual={true} key={name} color={color} name={name} />)}
       </Palette>
     )

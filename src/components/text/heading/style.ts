@@ -4,7 +4,7 @@
 
 import styled from 'styled-components'
 import { HeadingProps } from './index'
-import theme from '../../../theme/brave-default'
+import theme from '../../../theme/broowzer-default'
 
 const StyledSharedHeading = styled('span')<HeadingProps>`
   box-sizing: border-box;

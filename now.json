@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "brave-ui",
+  "name": "broowzer-ui",
   "builds": [
     {
       "src": "package.json",

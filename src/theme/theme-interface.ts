@@ -11,10 +11,10 @@ export default interface IThemeProps {
     background01: string
     background02: string
     background03: string
-    brandBrave: string
-    brandBraveInteracting: string
-    brandBraveActive: string
-    brandBraveLight: string
+    brandBroowzer: string
+    brandBroowzerInteracting: string
+    brandBroowzerActive: string
+    brandBroowzerLight: string
     brandBat: string
     brandBatInteracting: string
     brandBatActive: string
@@ -76,4 +76,4 @@ export default interface IThemeProps {
   }
 }
 
-export type BraveThemedStyledProps<T> = ThemedStyledProps<T, IThemeProps>
+export type BroowzerThemedStyledProps<T> = ThemedStyledProps<T, IThemeProps>

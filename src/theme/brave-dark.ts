@@ -1,10 +1,10 @@
 import ITheme from './theme-interface'
 import colors from './colors'
-import defaultTheme from './brave-default'
+import defaultTheme from './broowzer-default'
 
 const darkTheme: ITheme = {
   ...defaultTheme,
-  name: 'Brave Dark',
+  name: 'Broowzer Dark',
   color: {
     ...defaultTheme.color,
     // brand

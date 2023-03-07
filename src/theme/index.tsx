@@ -1,9 +1,9 @@
 // @ts-ignore: Needed for ThemeProvider
 import * as React from 'react'
 import * as styledComponents from 'styled-components'
-import { BraveThemedStyledProps as ThemedStyledProps } from './theme-interface'
+import { BroowzerThemedStyledProps as ThemedStyledProps } from './theme-interface'
 // theme for testing
-import TestTheme from './brave-default'
+import TestTheme from './broowzer-default'
 
 const {
   default: styled,

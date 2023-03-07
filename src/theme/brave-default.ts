@@ -20,12 +20,12 @@ const theme: ITheme = {
     interactive07: colors.neutral900,
     interactive08: colors.grey500,
     focusBorder: colors.blurple300,
-    brandBrave: colors.orange500,
+    brandBroowzer: colors.orange500,
     brandBat: colors.blurple500,
-    // brave controls
-    brandBraveInteracting: colors.orange500,
-    brandBraveActive: colors.orange200,
-    brandBraveLight: colors.orange000,
+    // broowzer controls
+    brandBroowzerInteracting: colors.orange500,
+    brandBroowzerActive: colors.orange200,
+    brandBroowzerLight: colors.orange000,
     // bat controls
     brandBatInteracting: colors.blurple500,
     brandBatActive: colors.blurple200,
